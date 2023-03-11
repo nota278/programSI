@@ -2,7 +2,7 @@
 // 
 // 
 // 
-Console.WriteLine("Введите целое  число число");
+Console.WriteLine("Введите целое  число ");
 int hi=Convert.ToInt32(Console.ReadLine());
 if (hi%2 == 0)
 {
