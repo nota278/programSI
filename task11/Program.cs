@@ -7,6 +7,7 @@ Console.WriteLine("Введите целое положительное 3-х з�
 int hi=Convert.ToInt32(Console.ReadLine());
 int result = Twochi(hi);
 Console.WriteLine($"Из  {hi}  получили  {result}");
+
 int Twochi(int num)
 {
     int zifra1 = num/100;
