@@ -42,6 +42,6 @@ int str = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите количество столбцов stol ");
 int stol = Convert.ToInt32(Console.ReadLine());
 
-int [,] array = CreateArrayRndInt (str, stol, -100, 100);
+int [,] array = CreateArrayRndInt (str, stol, -10, 10);
 PrintArray (array);
 Console.WriteLine ();
